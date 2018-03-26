@@ -12,11 +12,6 @@ from flask import jsonify
 
 app = Flask(__name__)
 
-def GetLocalTime(utcdatetime, localtz):
-	localdatetime = utcdatetime.replace(tzinfo=tz.UTC).astimezone(localtz)
-
-	return str(localdatetime.isoformat())
-
 @app.route("/vegetation-cover")
 def vegetationcover():
 	# TODO: aceitar como parametro
@@ -195,6 +190,11 @@ def GetArea(filename):
 	dataset = None;
 
 	return "%.2f" % area
+
+def GetLocalTime(utcdatetime, localtz):
+	localdatetime = utcdatetime.replace(tzinfo=tz.UTC).astimezone(localtz)
+
+	return str(localdatetime.isoformat())
 
 def MidpointEuclidean(x1,y1,x2,y2):
 	dist_x = abs(x1-x2) / 2.
