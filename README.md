@@ -29,14 +29,14 @@ O servidor que serve o endpoint deve ser feito em Python/Flask.
 ===================================================
 ## Extra:
 
-NDVI:
+# NDVI:
 ![NDVI](https://image.ibb.co/gq4Djn/ndvi.png)
 
-MIN-X / MIN-Y:
+# MIN-X / MIN-Y:
 ![min-x/min-y](https://image.ibb.co/nsyg4n/minxminy.png)
 
-MAX-X / MAX-Y:
+# MAX-X / MAX-Y:
 ![max-x/max-y](https://image.ibb.co/dcrjPn/maxxmaxy.png)
 
-CENTROIDE:
+# CENTROIDE:
 ![centroide](https://image.ibb.co/cpPSc7/centroide.png)
