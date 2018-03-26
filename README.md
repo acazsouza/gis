@@ -27,7 +27,8 @@ e do nome do endpoint.
 O servidor que serve o endpoint deve ser feito em Python/Flask.
 
 ===================================================
-## Extra:
+
+## Resultados extras gerado a partir dos dados acima:
 
 ### NDVI:
 ![NDVI](https://image.ibb.co/gq4Djn/ndvi.png)
